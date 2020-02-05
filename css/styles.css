@@ -69,3 +69,94 @@ p span::before,
 p span::after {
   content: '"';
 }
+
+img {
+  display: inline-block;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  border: 5px solid #eaeaea;
+}
+
+#border-azul {
+  border-color: #114477;
+}
+
+.azul {
+  color: #147fcc;
+}
+
+.azul:hover {
+  background-color: #147fcc;
+  color: white;
+}
+
+.circulo {
+  font-size: 90px;
+  color: #ccc;
+  border: 5px solid #ccc;
+  padding: 15px 40px;
+  display: inline-block;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+#circulo-1 {
+  display: inline;
+  width: 500px;
+}
+
+#circulo-2 {
+  display: block;
+  width: 100px;
+}
+
+#circulo-3 {
+  display: block;
+  width: 50px;
+}
+
+#circulo-4 {
+  display: none;
+}
+#mostrar {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  border: 2px solid red;
+  vertical-align: middle;
+}
+
+#mostrar:hover #circulo-4 {
+  display: block;
+}
+
+#circulo-5 {
+  position: static;
+  top: 500px;
+}
+
+#circulo-6 {
+  position: relative;
+  top: 50px;
+}
+
+#padre {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  display: inline-block;
+  border: 2px dashed red;
+}
+
+#circulo-7 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#circulo-8 {
+  position: fixed;
+  bottom: 20px;
+  left: 30px;
+}
