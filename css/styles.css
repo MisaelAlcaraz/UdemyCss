@@ -4,4 +4,68 @@ body {
   color: #666;
   margin: 20px 20px 20px 250px;
   background-image: url(https://via.placeholder.com/250/300);
+  background-repeat: repeat-y;
+}
+h1,
+h2 {
+  margin: 0 0 20px;
+  text-transform: uppercase;
+  font-weight: normal;
+  cursor: default;
+}
+
+h1 {
+  font-size: 40px;
+  background-color: #2e7edb;
+  color: white;
+  padding: 10px 30px;
+}
+
+h2,
+p,
+img {
+  margin-left: 30px;
+}
+
+p {
+  letter-spacing: 3px;
+  line-height: 30px;
+}
+
+a {
+  color: rgb(226, 87, 6);
+  text-decoration: none;
+  letter-spacing: 0;
+  padding: 5px 10px;
+}
+
+a:hover {
+  background-color: #2e7edb;
+  color: white;
+}
+
+a[href="https://www.google.com.mx"] {
+  color: red;
+}
+
+a[href="https://www.google.com.mx"]:hover {
+  background-color: #10dd2b;
+  color: white;
+}
+
+p span {
+  display: inline-block;
+  width: 300px;
+  float: right;
+  text-align: right;
+  margin: 20px 0 20px 20px;
+  letter-spacing: 0;
+  font-size: 30px;
+  color: #999;
+  font-style: italic;
+}
+
+p span::before,
+p span::after {
+  content: '"';
 }
